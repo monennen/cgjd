@@ -1,0 +1,45 @@
+/* pages/myindex/myindex.wxss */
+ 
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  color: #007aff;
+  margin: 50rpx;
+  /* background-color: white;
+  background-size: cover; */
+}
+
+.usermotto {
+  font-size: 45rpx;
+  margin-top: 200px;
+  color: #576b95;
+}
